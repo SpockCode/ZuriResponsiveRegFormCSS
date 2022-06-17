@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Desktop Styles*/
+
+body{
+    background-image: url(bg-intro-desktop.png);
+    background-color: rgb(243, 132, 150);
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.text{
+    color: white;
+    width:50% ;
+    padding: 20px;
+    font-size: 15px;
+}
+.outlook{
+    flex-direction: column;
+    width: 50%;
+
+}
+.try{
+     background-color: rgb(68, 29, 104) ;
+     color: white;
+     padding: 10px;
+     font-size: 12px;
+     border-radius: 5px;
+     text-align: center;
+}
+
+.form{
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: solid rgb(229, 228, 228) 1px;
+    padding: 10px;
+    margin: 5px;
+}
+
+button{
+    background-color: rgb(108, 208, 108);
+    border: 0px;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form p{
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+}
+
+.form span{
+    color: red;
+}
+
+input :placeholder-shown{
+    color: black;
+    font-size: 8px;
+}
+
